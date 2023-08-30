@@ -1,0 +1,22 @@
+body {
+    background:linear-gradient(120deg, salmon 0%, salmon 50%,cornflowerblue 50%);
+    font-family: "Comic Sans MS";
+}
+
+*{
+    text-align: center;
+}
+p {
+    width:75%;
+    margin:0 auto;
+}
+img {
+    border-radius: 10px;
+    filter:none;
+    transition: all 1s ease;
+    box-shadow: 5px 5px 10px 10px black;
+}
+
+img:hover{
+    filter: invert();
+}
